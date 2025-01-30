@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* Example gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333; /* Dark text for contrast */
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    text-align: center;
+    max-width: 500px; /* Responsive width */
+    width: 90%; /* Occupy most of the screen on smaller devices */
+}
+
+.input-area {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px); /* Adjust for padding and border */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.result-area {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #007bff; /* Blue */
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+    .container {
+        padding: 20px;
+    }
+    input[type="date"] {
+        width: calc(100% - 22px);
+    }
+}
