@@ -1,22 +1,22 @@
 body {
     font-family: sans-serif;
-    background: linear-gradient(to right, #e0eafc, #cfdef3); /* Example gradient */
+    background: linear-gradient(to right, #e0eafc, #cfdef3); 
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    color: #333; /* Dark text for contrast */
+    color: #333; 
 }
 
 .container {
     background: white;
     padding: 30px;
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    border-radius: 15px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
     text-align: center;
-    max-width: 500px; /* Responsive width */
-    width: 90%; /* Occupy most of the screen on smaller devices */
+    max-width: 500px; 
+    width: 90%; 
 }
 
 .input-area {
@@ -33,19 +33,19 @@ input[type="date"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: calc(100% - 22px); /* Adjust for padding and border */
+    width: calc(100% - 22px);
     box-sizing: border-box;
     margin-bottom: 10px;
 }
 
 button {
-    background: #4CAF50; /* Green */
+    background: #4CAF50; 
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    transition: background-color 0.3s ease; 
 }
 
 button:hover {
@@ -55,10 +55,10 @@ button:hover {
 .result-area {
     margin-top: 20px;
     font-size: 1.2em;
-    color: #007bff; /* Blue */
+    color: #007bff;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 400px) {
     .container {
         padding: 20px;
